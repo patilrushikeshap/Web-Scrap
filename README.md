@@ -22,20 +22,12 @@ Extracting Metadata: For each webpage, it extracts metadata such as the page tit
 Language Mapping: The script contains a function (map_language) to map short language codes to their full display names.
 Data Processing: After extracting the metadata, it processes the data, including mapping language codes to their full names and reformatting the data structure.
 Saving Data to CSV: Finally, it saves the extracted metadata to a CSV file. The script ensures that the CSV file contains only desired columns and specifies the desired sequence of columns.
+
 The metadata extracted includes:
+{
+URL, Title, Album/Movie, Singers, Producer, Lyricist, Language, Music Company, Duration, ISRC (International Standard Recording Code), UPC (Universal Product Code)
+}
+Other (additional data can be extracted from the table)
 
-URL
-Title
-Album/Movie
-Singers
-Producer
-Lyricist
-Language
-Music Company
-Duration
-ISRC (International Standard Recording Code)
-UPC (Universal Product Code)
-
-Other (additional data extracted from the table)
 Overall, this script is designed to scrape web pages for music-related metadata and organize it into a structured format for further analysis or processing.
 
